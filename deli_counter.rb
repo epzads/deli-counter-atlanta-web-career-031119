@@ -38,3 +38,16 @@ index = finalarray.index(string) + 1
   puts "Welcome, #{string}. You are number #{index} in line."
 end 
 end
+
+def now_serving(finalarray)
+ if finalarray == []
+
+puts "There is nobody waiting to be served!"
+
+else 
+index = finalarray[0]
+  puts "Currently serving #{index}."
+
+  finalarray.shift
+end   
+end
