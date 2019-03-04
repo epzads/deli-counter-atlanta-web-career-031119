@@ -3,6 +3,6 @@
 def line(array)
 
   if array == ""
- puts "The line is empty."  
+ puts "the line is empty."  
 end 
 end   
