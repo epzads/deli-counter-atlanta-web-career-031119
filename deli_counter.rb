@@ -15,7 +15,7 @@ numberarray << count.to_s + ". " +  array[h]
 
 count += 1 
 end 
-puts numberarray
+#puts numberarray
 
 
 
