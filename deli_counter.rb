@@ -25,4 +25,16 @@ puts "The line is currently: #{numberarray.join(" ")}"
 end 
 end   
 
-def take_a_number(array)
+def take_a_number(finalarray,string)
+
+finalarray << string
+
+if finalarray.index(string) == 0 
+
+  puts "Welcome, #{string}. You are number 1 in line."
+else 
+
+index = finalarray.index(string)
+  puts "Welcome, #{string}. You are number #{index} in line."
+end 
+end
