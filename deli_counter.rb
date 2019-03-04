@@ -19,7 +19,7 @@ end
 
 
 
-puts "The line is currently : #{numberarray.join(" ")}"
+puts "The line is currently: #{numberarray.join(" ")}"
 
 
 end 
