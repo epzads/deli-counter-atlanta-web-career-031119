@@ -7,7 +7,7 @@ def line(array = [] )
 else 
 size = array.size
 
-#puts size 
+ 
 count = 1 
 numberarray = []
 size.times do |h|
@@ -24,3 +24,5 @@ puts "The line is currently: #{numberarray.join(" ")}"
 
 end 
 end   
+
+
