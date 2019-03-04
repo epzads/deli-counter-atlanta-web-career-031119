@@ -34,7 +34,7 @@ if finalarray.index(string) == 0
   puts "Welcome, #{string}. You are number 1 in line."
 else 
 
-index = finalarray.index(string)
+index = finalarray.index(string) + 1 
   puts "Welcome, #{string}. You are number #{index} in line."
 end 
 end
